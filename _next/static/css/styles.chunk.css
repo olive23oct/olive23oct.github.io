@@ -1,0 +1,94 @@
+ul{
+  list-style: none;
+}
+li > a {
+  color:black;
+}
+/* Nav */
+.navbar-nav {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+  }  
+  .navbar-list {
+    display: inline;
+    padding: 15px; 
+  }
+  .navbar-list > a {
+    color: #adb5bd;
+  }  
+
+/* Intro*/  
+.intro {
+    min-height: 100vh;
+    background: linear-gradient( 45deg, #ffd89b,#19547b );
+    width: 100%;
+    color: #333;
+  }
+  .title {
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    line-height: 1.15;
+    font-weight: bold;
+    font-size: 5rem;
+  }
+  .title,
+  .description {
+    text-align: center;
+    color: white;
+  }
+  .description {
+    margin: 40px auto;
+    
+    font-weight: 200;
+    color: #fff;
+    font-size: 1.5rem;
+    max-width: 70%;
+  }
+
+  /* Profile */
+  .profile-wrapper, .works-wrapper{
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    margin-top:  10px;
+    width: 100%;
+  }
+  .profile-title, .works-title {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline #19547b;
+  }
+  .card {
+    margin-top: 20px;
+    margin: 0 auto;
+    padding:10px;
+  }
+  .profile-subtitle{
+    font-weight: bold;
+    color: #19547b;
+  }
+  .profile-content {
+    text-align: right;
+  }
+  .profile-content > a {
+    color: black;
+  }
+  
+  /* project */
+  .proejct-container > div{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .project-name, .project-description {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+/*# sourceMappingURL=styles.chunk.css.map*/
